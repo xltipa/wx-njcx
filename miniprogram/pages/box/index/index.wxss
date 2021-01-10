@@ -1,0 +1,32 @@
+/* pages/box/index/index.wxss */
+.background {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+.item-imagee{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 15rpx;
+  margin-left: 30rpx;
+}
+/* .container{
+  width: 100%;
+  height: 600rpx;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  flex-direction:column;
+  justify-items: left;
+} */
+.bimage{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.up{
+  position: absolute;
+  z-index: 1;
+}

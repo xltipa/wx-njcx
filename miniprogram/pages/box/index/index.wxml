@@ -1,0 +1,31 @@
+<!--pages/box/index/index.wxml-->
+<!-- <view class="container">   -->
+  <!-- <image src='https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=239698297,512454248&fm=26&gp=0.jpg' class="bimage"> -->
+    <!-- <image class='background' src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1873198631,3275343102&fm=26&gp=0.jpg" mode="aspectFill"></image> -->
+    <view class="up">
+    <view class='content-item sale' bindtap="tel">
+      <view>
+        <image src='/image/select-sale.png' class='item-imagee'></image>
+      </view>
+      <view class='word'>电话本</view>
+
+      <view class='content-item sale' bindtap="lstable">
+      <view>
+        <image src='/image/select-sale.png' class='item-imagee'></image>
+      </view>
+      <view class='word'>课表</view>
+
+</view>
+<view class='content-item sale' bindtap="toai">
+      <view>
+        <image src='/image/select-sale.png' class='item-imagee'></image>
+      </view>
+      <view class='word'>ai小助手</view>
+      </view>
+
+
+    </view>
+  </view>
+  <!-- </image> -->
+
+<!-- </view> -->
