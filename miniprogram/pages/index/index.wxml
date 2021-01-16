@@ -6,7 +6,7 @@
       <view>Hello , 欢迎来到南财全能墙！</view>
     </view>
     <button open-type="getUserInfo" bindgetuserinfo="getAuthUserInfo" class='auth-button'>
-      <view>进入墙</view>
+      <view>走进墙墙</view>
     </button>
   </view>
 </view>

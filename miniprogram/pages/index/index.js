@@ -7,7 +7,7 @@ Page({
      * 页面的初始数据
      */
     data: {
-        show_auth: true,
+        show_auth: true
     },
 
     /** 
@@ -18,12 +18,9 @@ Page({
         wx.showLoading({
             title: '加载中...',
         });
-        wx.switchTab({
-            url: '/pages/home/index/index'
-        })
         wx.getSetting({
             success(res) {
-               // console.log(res)
+                console.log(res)
                 if (!res.authSetting['scope.userInfo']) {
                     that.setData({
                         show_auth: true
@@ -110,7 +107,7 @@ Page({
      */
     getAuthUserInfo: function(data) {
         // console.log('data', data)
-        console.log('data', data.detail.errMsg,)
+        console.log('data', data.detail.errMsg)
         if (data.detail.errMsg == "getUserInfo:ok") {
             this.setData({
                 show_auth: false
